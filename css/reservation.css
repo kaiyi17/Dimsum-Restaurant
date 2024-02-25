@@ -1,0 +1,85 @@
+
+  #main .container {
+    padding-top: 70px;
+  }
+
+  .error{
+    color: red;
+    font-size: 0.8em; 
+    height: 1em; 
+    display: block; 
+  }
+  
+  .ui-timepicker-container {
+    position: absolute;
+    z-index: 1000; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+    background-color: #fff; 
+  }
+  
+  .ui-timepicker-viewport {
+    overflow-y: scroll; 
+    max-height: 110px;
+  }
+  
+  .ui-timepicker-viewport .ui-menu-item {
+    padding: 5px 10px; 
+    color: #333; 
+  }
+  
+  .ui-timepicker-viewport .ui-menu-item:hover {
+    background-color: #f7f7f7; 
+  }
+
+  .ui-timepicker-viewport .ui-menu-item {
+    list-style-type: none;
+    border-bottom: none; 
+}
+
+.ui-timepicker-viewport .ui-menu-item a {
+    text-decoration: none; 
+    color: black;
+
+}
+  
+ /* footer */
+
+.table.text-white {
+    background-color: transparent;
+  }
+  
+  .table.text-white td,
+  .table.text-white th {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .copyright li {
+    list-style-type: none;
+  }
+  
+  .copyright li a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .copyright li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .follow-us {
+    font-size: 20px;
+    color: #e9d2a4;
+  }
+  
+  
+  footer .social-icons a {
+    padding: 0.4rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #e9d2a4;
+  }
+  
+  footer .social-icons a:hover {
+    color: #AC0319;
+  }
